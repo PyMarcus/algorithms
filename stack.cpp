@@ -62,7 +62,22 @@ private:
         std::cout << std::endl;
     }
 };
+/*
+std::ifstream in("file.txt");
+    std::string text;
 
+
+    char content = in.get();
+
+    while(in.good())
+    {
+        content = in.get();
+        if(in.fail()) break;
+        text.push_back(content);
+    }
+    std::cout << text;
+    return 0;
+*/
 
 
 int main(int arg, char *argv[])
